@@ -6,7 +6,8 @@ body {
     rgb(190, 228, 210) 62.3%,
     rgb(215, 248, 247) 93.8%
   );
-  font-family: cursive;
+  font-family: "Tangerine", cursive;
+  font-size: 36px;
 }
 
 .weather-app {
@@ -23,6 +24,30 @@ body {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 30px 50px rgba (65 50 100 0.08);
+}
+header {
+  border-bottom: 1px solid #f48994;
+  padding: 0 0 20px 0;
+}
+
+.search-form-input {
+  background-color: #c0e6d5;
+  border: none;
+  border-radius: 25px;
+
+  font-size: 20px;
+  font-family: cursive;
+  width: 75%;
+  padding: 20px;
+}
+.search-form-button {
+  background-color: #f48994;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 20px;
+  font-family: cursive;
+  padding: 20px;
 }
 .tangerine-bold {
   font-family: "Tangerine", cursive;
@@ -43,4 +68,14 @@ body {
   font-family: "Pirata One", system-ui;
   font-weight: 400;
   font-style: normal;
+}
+a {
+  color: #a176c2;
+}
+footer {
+  border-top: 1px solid #f48994;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 22px;
+  padding: 20px 0;
+  text-align: center;
 }

@@ -7,9 +7,30 @@ body {
     rgb(215, 248, 247) 93.8%
   );
   font-family: "Tangerine", cursive;
-  font-size: 36px;
+  font-size: 24px;
 }
 
+header {
+  border-bottom: 1px solid #f48994;
+  padding: 0 0 20px 0;
+}
+main {
+  padding: 20px;
+}
+p strong {
+  font-weight: bolder;
+  color: #f06371;
+}
+a {
+  color: #a176c2;
+}
+footer {
+  border-top: 1px solid #f48994;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 22px;
+  padding: 20px 0;
+  text-align: center;
+}
 .weather-app {
   background: radial-gradient(
     328px at 2.9% 15%,
@@ -25,11 +46,6 @@ body {
   border-radius: 10px;
   box-shadow: 0 30px 50px rgba (65 50 100 0.08);
 }
-header {
-  border-bottom: 1px solid #f48994;
-  padding: 0 0 20px 0;
-}
-
 .search-form-input {
   background-color: #c0e6d5;
   border: none;
@@ -48,6 +64,32 @@ header {
   font-size: 20px;
   font-family: cursive;
   padding: 20px;
+}
+
+.weather-app-info {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+.weather-app-city {
+  font-size: 56px;
+}
+.weather-app-temperature-container {
+  display: flex;
+}
+.weather-app-temperature-icon {
+  font-size: 62px;
+  padding-top: 15px;
+}
+.weather-app-temperature-value {
+  font-size: 96px;
+  font-weight: 900;
+  padding-left: 10px;
+}
+.weather-app-temperature-unit {
+  font-size: 36px;
+  padding-top: 40px;
+  padding-left: 10px;
 }
 .tangerine-bold {
   font-family: "Tangerine", cursive;
@@ -68,14 +110,4 @@ header {
   font-family: "Pirata One", system-ui;
   font-weight: 400;
   font-style: normal;
-}
-a {
-  color: #a176c2;
-}
-footer {
-  border-top: 1px solid #f48994;
-  color: rgba(0, 0, 0, 0.6);
-  font-size: 22px;
-  padding: 20px 0;
-  text-align: center;
 }

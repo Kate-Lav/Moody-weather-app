@@ -3,46 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/index.css "/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pirata+One&family=Tangerine:wght@400;700&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/index.css " />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pirata+One&family=Tangerine:wght@400;700&family=UnifrakturCook:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <title>Moody Weather App</title>
   </head>
   <body>
     <div class="weather-app">
-    <header>
+      <header>
         <form class="search-form">
-            <input type="search" placeholder="Enter a city" required class="search-form-input"/> 
-            <input type="submit" value="search" class="search-form-button"/>
-
+          <input
+            type="search"
+            placeholder="Enter a city"
+            required
+            class="search-form-input"
+          />
+          <input type="submit" value="search" class="search-form-button" />
         </form>
-
-    </header>
-    <main>
-        <div>
-    <h1>London</h1>
-    <p>
-        Tuesday 14.46, bright sunshine
-        <br/>
-        Humidity: 90%, Wind: 0 mph
-    </p>
-    </div>
-    <div>
-    ☀️ 33°C
-    </div>
-    <footer>
-      Coded by
-      <a href="https://github.com/Kate-Lav" target="blank">Kate Lavender</a> 🪻,
-      open-sourced on
-      <a href="https://github.com/Kate-Lav/Moody-weather-app" target="blank"
-        >GitHub</a
-      >
-      and hosted on
-      <a href="https://moody-weather-forecast.netlify.app/" target="blank"
-        >Netlify</a>
+      </header>
+      <main>
+        <div class="weather-app-info">
+          <div>
+            <h1 class="weather-app-city">London</h1>
+            <p class="weather-app-details">
+              Tuesday 14.46, bright sunshine
+              <br />
+              Humidity:<strong> 90%</strong>, Wind: <strong>3 mph</strong>
+            </p>
+          </div>
+          <div class="weather-app-temperature-container">
+            <div class="weather-app-temperature-icon">☀️</div>
+            <div class="weather-app-temperature-value">33</div>
+            <div class="weather-app-temperature-unit">°C</div>
+          </div>
+        </div>
       </main>
-    </footer>
+
+      <footer>
+        Coded by
+        <a href="https://github.com/Kate-Lav" target="blank">Kate Lavender</a>
+        🪻, open-sourced on
+        <a href="https://github.com/Kate-Lav/Moody-weather-app" target="blank"
+          >GitHub</a
+        >
+        and hosted on
+        <a href="https://moody-weather-forecast.netlify.app/" target="blank"
+          >Netlify</a
+        >
+      </footer>
     </div>
   </body>
 </html>

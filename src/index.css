@@ -79,17 +79,17 @@ footer {
   display: flex;
 }
 .weather-app-temperature-icon {
-  font-size: 62px;
-  padding-top: 15px;
+  font-size: 48px;
+  padding-top: 25px;
 }
 .weather-app-temperature-value {
-  font-size: 96px;
+  font-size: 108px;
   font-weight: 900;
   padding-left: 10px;
 }
 .weather-app-temperature-unit {
   font-size: 36px;
-  padding-top: 40px;
+  padding-top: 45px;
   padding-left: 10px;
 }
 .tangerine-bold {

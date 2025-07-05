@@ -79,8 +79,8 @@ footer {
   display: flex;
 }
 .weather-app-temperature-icon {
-  font-size: 48px;
-  padding-top: 25px;
+  height: 88px;
+  padding-top: 20px;
 }
 .weather-app-temperature-value {
   font-size: 108px;

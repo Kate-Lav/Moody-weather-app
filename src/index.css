@@ -64,6 +64,7 @@ footer {
   color: white;
   font-size: 20px;
   font-family: cursive;
+  margin-left: 5px;
   padding: 20px;
 }
 
@@ -73,10 +74,11 @@ footer {
   justify-content: space-between;
 }
 .weather-app-city {
-  font-size: 56px;
+  font-size: 80px;
 }
 .weather-app-temperature-container {
   display: flex;
+  padding-top: 30px;
 }
 .weather-app-temperature-icon {
   height: 88px;
